@@ -1,0 +1,76 @@
+[brain@X1Carbon mesa-spec]$ clinfo
+Number of platforms                               1
+  Platform Name                                   Experiment Intel Gen OCL Driver
+  Platform Vendor                                 Intel
+  Platform Version                                OpenCL 1.1 beignet 0.3
+  Platform Profile                                FULL_PROFILE
+  Platform Extensions                             cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_khr_icd
+
+  Platform Name                                   Experiment Intel Gen OCL Driver
+Number of devices                                 1
+  Device Name                                     Intel(R) HD Graphics IvyBridge M GT2
+  Device Vendor                                   Intel
+  Device Version                                  OpenCL 1.1 beignet 0.3
+  Driver Version                                  0.3
+  Device OpenCL C Version                         OpenCL C 1.1 beignet 0.3
+  Device Type                                     GPU
+  Device Profile                                  FULL_PROFILE
+  Max compute units                               128
+  Max clock frequency                             1000MHz
+  Device Partition                                (n/a)
+  Max work item dimensions                        3
+    Max work item size[0]                         512
+    Max work item size[1]                         512
+    Max work item size[2]                         512
+  Max work group size                             1024
+  Preferred work group size multiple              16
+  Preferred / native vector sizes                 
+    char                                                16 / 16      
+    short                                               16 / 16      
+    int                                                 16 / 16      
+    long                                                16 / 16      
+    half                                                 0 / 16       (n/a)
+    float                                               16 / 16      
+    double                                               0 / 16       (n/a)
+  Half-precision   Floating-point support         (n/a)
+  Single-precision Floating-point support        
+    Denormals                                     No
+    Infinity and NANs                             Yes
+    Round to nearest                              Yes
+    Round to zero                                 No
+    Round to infinity                             No
+    IEEE754-2008 fused multiply-add               No
+    Correctly-rounded divide and sqrt operations  No
+    Support is emulated in software               No
+  Double-precision Floating-point support         (n/a)
+  Address bits                                    32, Little-Endian
+  Global memory size                              134217728 (   128MB)
+  Error Correction support                        No
+  Max memory allocation                           134217728 (   128MB)
+  Unified memory for Host and Device              No
+  Minimum alignment for any data type             128 bytes
+  Alignment of base address                       1024 bits (128 bytes)
+  Global Memory cache type                        Read/Write
+  Global Memory cache size                        8192 (     8KB)
+  Global Memory cache line                        128 bytes
+  Image support                                   Yes
+    Max number of samplers per kernel             16
+    Max 2D image size                             8192x8192 pixels
+    Max 3D image size                             8192x8192x2048 pixels
+    Max number of read image args                 128
+    Max number of write image args                8
+  Local memory type                               Global
+  Local memory size                               65536 (    64KB)
+  Max constant buffer size                        524288 (   512KB)
+  Max number of constant args                     8
+  Max size of kernel argument                     1024
+  Queue properties                                
+    Out-of-order execution                        No
+    Profiling                                     Yes
+  Profiling timer resolution                      80ns
+  Execution capabilities                          
+    Run OpenCL kernels                            Yes
+    Run native kernels                            Yes
+  Device Available                                Yes
+  Compiler Available                              Yes
+  Device Extensions                               cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_khr_icd
